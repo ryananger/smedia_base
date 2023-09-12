@@ -1,0 +1,128 @@
+.findCommunity {
+  width: 100%;
+  height: 100%;
+}
+
+.communityInput {
+  width: 320px;
+  border: var(--border);
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+  font-family: Jost;
+  overflow: hidden;
+  margin-bottom: 0.5vh;
+}
+
+.communityInput input {
+  margin: 0;
+  border-radius: unset;
+  border: none;
+  width: 100%;
+  font-family: Jost;
+}
+
+.go {
+  background-color: var(--color1);
+  color: white;
+  padding: 0 1vh;
+  box-sizing: border-box;
+  height: 100%;
+  transition: color 0.25s, background-color 0.25s;
+}
+
+.go:hover {
+  background-color: var(--color2);
+  color: var(--color1);
+  cursor: pointer;
+}
+
+.communityButton {
+  width: 320px;
+  height: 72px;
+  border-radius: 0 0 32px 32px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  background-color: var(--color1);
+  color: white;
+  transition: color 0.25s, background-color 0.25s;
+}
+
+.createForm {
+  width: 320px;
+  margin: 2vh;
+}
+
+.createForm input {
+  width: 100%;
+  border: var(--border);
+}
+
+.privacy {
+  width: 100%;
+  padding: 0 0 0 0.5vh;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type='checkbox'] {
+  width: 24px;
+}
+
+.createForm select {
+  outline: none;
+  width: 120px;
+  height: 32px;
+  border-radius: 32px;
+  border: var(--border);
+  margin: 0;
+}
+
+.communityList {
+  width: 100%;
+  margin-top: 2vh;
+}
+
+.communityCard {
+  position: relative;
+  width: 480px;
+  height: 160px;
+  justify-content: flex-start;
+  margin: 1vh;
+  padding: 1vh;
+  border: var(--border);
+  border-radius: 12px;
+}
+
+.communityImg {
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-right: 1vh;
+  border-radius: 8px;
+}
+
+.communityInfo {
+  height: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.joinButton {
+  position: absolute;
+  right: 1vh;
+  bottom: 1vh;
+  background-color: var(--color1);
+  color: white;
+  border-radius: 32px;
+  width: 120px;
+  height: 32px;
+  transition: color 0.25s, background-color 0.25s;
+}
+
+.communityButton:hover, .joinButton:hover {
+  cursor: pointer;
+  border: var(--border);
+  background-color: var(--color2);
+  color: var(--color1);
+}

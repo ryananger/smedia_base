@@ -1,0 +1,6 @@
+client/dist/bundle.js
+client/dist/bundle.js.gz
+/node_modules/
+.env
+earthpunk_key.pem
+server/index.js
